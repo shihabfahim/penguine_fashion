@@ -34,7 +34,7 @@
 
 .button_1:hover{
     padding: 15px 35px;
-    background-color:#A3CB38 ;
+    background-color:#fbc531;
     display: inline-block;
     border-radius: 10px;
     box-shadow: 5px 5px;
@@ -143,7 +143,7 @@
 
 .button_2:hover{
     padding: 15px 20px;
-    background-color:#A3CB38 ;
+    background-color:#fbc531 ;
     display: inline-block;
     border-radius: 10px;
     box-shadow: 5px 5px;
@@ -202,6 +202,128 @@
     margin-left: 18%;
     margin-top: 18%;
 }
+nav{
+    /* border: 2px solid red; */
+    background-color: #ecf0f1;
+    padding: 8px 10px ;
+    
+}
+nav .nav_parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 3px solid blue; */
+}
+
+.logo img{
+    width: 70%;
+    /* border: 1px solid black; */
+}
 
 
+
+} */
+
+.varieties {
+    background-color: #333;  
+    height: 50px;  
+    display: flex;
+    align-items: center; 
+  }
+
+  .varieties ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+  }
+
+  .varieties ul li {
+    display: flex;
+    width: 100%;
+  }
+
+  .varieties ul li a {
+    flex: 1; /* Make links take full width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background-color: #A3CB38;
+    height: 100%; /* Take full height of parent */
+    padding: 0 20px;
+    transition: background 0.3s;
+  }
+
+  .varieties ul li a:hover {
+    background-color:#fbc531;
+  }
+
+.search_container input{
+  border: 1px solid black;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+.logIn_signUp{
+    /* border: 1px solid red; */
+}
+
+.varieties,.search_container,.logIn_signUp{
+    margin-right:5%;
+}
+.logIn_signUp a{
+    /* display: inline-block; */
+    width: 80px;
+    margin: auto 20px;
+    text-decoration: none;
+    background-color: #A3CB38;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-left: 35px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.logIn_signUp a:hover{
+    /* display: inline-block; */
+    width: 80px;
+    margin: auto 20px;
+    text-decoration: none;
+    background-color:#fbc531;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-left: 35px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.search_container,.logIn_signUp{
+    display: flex;
+}
+.fa-magnifying-glass{
+    padding-top: 8px;
+
+}
+
+.section_4{
+    display: flex;
+    background-color:#A3CB38 ;
+    text-align: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+}
+
+.footer_left a,.chat a{
+    text-decoration: none;
+}
+.footer_left a{
+    margin-right: 20px;
+
+   
+}
+.footer_left{
+    margin-left: 30px;
+}
 
