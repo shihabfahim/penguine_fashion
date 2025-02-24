@@ -1,0 +1,131 @@
+/* Responsive CSS for mobile devices with maximum width of 420px */
+@media only screen and (max-width: 420px) {
+    /* General Styles */
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Section 1 */
+    .section_1 {
+        padding: 20px;
+    }
+
+    .section_parent_div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left_div {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .left_div h1 {
+        font-size: 36px;
+    }
+
+    .left_div p {
+        font-size: 16px;
+    }
+
+    .button_1 {
+        padding: 10px 20px;
+    }
+
+    .right_div {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .right_div img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Section 2 */
+    .section_2 {
+        margin: 20px 10px;
+    }
+
+    .section_2 h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .women_jacket_div {
+        flex-direction: column;
+    }
+
+    .women_jacket_div img {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .jacket_descriptopn_parent {
+        flex-direction: column;
+    }
+
+    .jacket_description {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .price_n_button {
+        flex-direction: column;
+    }
+
+    .price_n_button_1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .price h2 {
+        font-size: 24px;
+    }
+
+    .button_2 {
+        padding: 0px 10px;
+        
+    }
+    .button_2:hover{
+        padding: 0px 10px;
+        
+    }
+    .button_2 a img {
+        margin-top: 18px;
+    }
+
+    /* Section 3 */
+    .section_3 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .sec3_left {
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .sec3_left_div {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sec3_left_div .child {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sec3_right_image img {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .whole_jacket .jacket{
+        text-align: center;
+    }
+}
